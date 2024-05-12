@@ -1,3 +1,8 @@
+package src;
+
+import src.models.BinaryTree;
+import src.models.Node;
+
 public class Main {
     public static void main(String[] args) {
         BinaryTree<Character> tree = new BinaryTree<Character>();
@@ -25,7 +30,7 @@ public class Main {
         Node<Character> c = tree.search('5');
         System.out.println(c);
 
-        System.out.println(tree.getHeight());
         tree.printTree();
+        System.out.println(tree.getHeight());
     }
 }

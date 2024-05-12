@@ -1,3 +1,4 @@
+package src.models;
 
 public class Node<T extends Comparable<T>> implements Comparable<T> {
     public Node<T> left;

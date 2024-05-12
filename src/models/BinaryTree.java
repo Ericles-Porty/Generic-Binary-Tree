@@ -1,3 +1,5 @@
+package src.models;
+
 public class BinaryTree<T extends Comparable<T>> {
     public Node<T> root;
 
